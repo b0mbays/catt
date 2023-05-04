@@ -10,4 +10,9 @@ setup(
         "typing; python_version<'3.5'",
         "setuptools>=40.0.0",
     ],
+    entry_points={
+        "console_scripts": [
+            "catt=catt.cli:main",
+        ]
+    },
 )
